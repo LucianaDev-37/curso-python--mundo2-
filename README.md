@@ -1,2 +1,2 @@
-# curso python (mundo2)
+# Curso Python (mundo2)
 A continuação do meus exercícios de curso python
