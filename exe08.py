@@ -1,5 +1,9 @@
+print(('{:=^40}').format ('Lojas Lu!')) #FORMATADO EM 40 ESPAÇOS 
 preco_produto = float(input('Digite o valor do produto:R$ '))
-forma_pagamento = int(input('''Digite a forma de pagamento ex.: debito/pix = 1, cartão à vista = 2, cartão parcelado = 3: '''))
+forma_pagamento = int(input('''Digite a forma de pagamento ex.: 
+debito/pix = 1, 
+cartão à vista = 2, 
+cartão parcelado = 3: '''))
 
 debito_pix = 1
 cartao_a_vista = 2
@@ -19,7 +23,7 @@ elif forma_pagamento == 2:
     print(''' Forma de pagamento selecionada com sucesso! Valor final com desconto: R$ {:.2f}'''.format(valor_final))
 # quantas parcelas selecionadas 
 elif forma_pagamento == 3:
-    parcelas = int(input('Em quantas parcelas deseja pagar?.(ex:.2,3,10) '))
+    parcelas = int(input('Em quantas parcelas deseja pagar?.(ex:.2,3 até 10) '))
 
     # 1x no cartão (5% desconto)
     if parcelas == 1:

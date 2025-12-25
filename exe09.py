@@ -8,7 +8,7 @@ elif jogador == '2' or jogador == 'tesoura':
 
 elif jogador == '3' or jogador == 'pedra':
     print('PEDRA! ')
-    exit()
+
 
 else:
     print('Opção inválida.')
