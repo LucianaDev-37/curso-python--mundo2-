@@ -2,7 +2,6 @@ soma_idade = 0
 maior_idade_homem = 0
 nome_velho = ''
 tot_mulher_21 = 0
-
 for p in range(1, 5):
     print(f'Digite o nome da {p}ª PESSOA ')
     nome = str(input('Nome: ')).strip()
