@@ -1,4 +1,4 @@
-from math import factorial
+#from math import factorial
 n = int(input('Digite um número para calcular seu Fatorial: '))
 c = n 
 fatorial = 1

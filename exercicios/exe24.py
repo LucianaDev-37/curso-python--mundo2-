@@ -1,5 +1,5 @@
 from time import sleep
-n1 = int(input('Primeiro valor: '))
+n1 = int(input('Primeiro valor'))
 n2 = int(input('Segundo valor: '))
 opcao = 0 # Usaremos essa variável para controlar o loop
 
